@@ -1,0 +1,41 @@
+# Кэш Android Studio
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Логи
+*.log
+
+# Файлы пользовательских настроек
+local.properties
+
+# Кэш операционной системы
+.DS_Store
+Thumbs.db
+
+# Кэшные файлы
+*.apk
+*.keystore
+
+# IntelliJ IDEA и Android Studio
+.idea/
+*.ipr
+*.iws
+*.bak
+*.swp
+
+# Библиотеки
+*.jar
+*.aar
+*.class
+
+# Генерируемые файлы
+gen/
+bin/
+out/
+
+# Кэш файлов сборки
+.cxx/
