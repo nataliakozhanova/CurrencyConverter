@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">CurrencyConverter</string>
     <string name="title_from_currency">From Currency</string>
+    <string name="title_to_currency">To Currency</string>
+    <string name="title_amount">Amount</string>
+    <string name="title_date">Date</string>
+    <string name="currency_all">All</string>
     <string name="currency1">EUR</string>
     <string name="currency2">USD</string>
     <string name="currency3">CHF</string>
+    <string name="currency4">GBP</string>
     <string name="select_currency">Select currency</string>
 </resources>
