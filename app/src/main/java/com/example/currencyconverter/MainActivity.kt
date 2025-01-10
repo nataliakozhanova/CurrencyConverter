@@ -1,4 +1,4 @@
-package com.example.currencyconvertertest
+package com.example.currencyconverter
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
