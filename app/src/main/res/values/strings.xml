@@ -13,4 +13,5 @@
     <string name="select_currency">Select currency</string>
     <string name="action_convert">Convert</string>
     <string name="action_back">Back</string>
+    <string name="convert_screen_message">You have navigated to the Convert Screen!</string>
 </resources>
