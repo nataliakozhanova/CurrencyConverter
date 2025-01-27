@@ -1,7 +1,10 @@
 package com.example.currencyconverter.di
 
 import com.example.currencyconverter.data.network.FrankfurterApiService
+import com.example.currencyconverter.data.network.NetworkClient
+import com.example.currencyconverter.data.network.RetrofitNetworkClient
 import com.google.gson.Gson
+import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -17,5 +20,9 @@ val dataModule = module {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(FrankfurterApiService::class.java)
+    }
+
+    single<NetworkClient>() {
+        RetrofitNetworkClient(get(), androidContext())
     }
 }
